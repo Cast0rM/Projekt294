@@ -1,0 +1,11 @@
+label, input, button{
+    display:block;
+}
+button[id="submit"]{
+    margin-top: 2rem;
+}
+body{
+    max-width: 300px;
+    margin:0 auto;
+    background-color: #DDD;
+}
