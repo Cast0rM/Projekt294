@@ -1,0 +1,29 @@
+body{
+    max-width: 300px;
+    margin:0 auto;
+    background-color: #DDD;
+}
+button[id="redirectionCreateTask"]{
+    margin-top: 2rem;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+button[id="redirectionCreateTask"]:hover{
+    border-color: green;
+    border-style: solid;
+    font-size: 11pt;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: white;
+}
+th, td{
+    padding: 10px 20px;
+    border: 1px solid #000;
+}

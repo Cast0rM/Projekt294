@@ -6,16 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="createTask.css">
-    <script src="createTask.js"></script>
+    <link rel="stylesheet" href="indexTasks.css">
+    <script src="indexTasks.js"></script>
 </head>
 
 <body>
-    <form id="createTaskForm">
-        <label for="taskInput">Input your task</label>
-        <input type="text" name="taskInput" id="taskInput" placeholder="TASK" />
-        <button type="submit">save task </button>
-    </form>
+    <h1>All TASKS</h1>
+    <table id="tasks">
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Completed</th>
+        </tr>
+        <tbody>
+
+        </tbody>
+    </table>
+    <button id="redirectionCreateTask" onclick="redCreateTask()">CreateTask 📄</button>
 </body>
 
 </html>
