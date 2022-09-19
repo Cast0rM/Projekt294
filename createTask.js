@@ -22,8 +22,8 @@ function createTask() {
     }).then((response) => {
         return response.json();
     }).then((data) => {
-        alert(data.title + " " + data.id + " " + data.completed);
+        window.location.href = "./index.html";
     }).catch(() => {
-        alert("Something went")
+        alert("Something went wrong")
     });
 }
