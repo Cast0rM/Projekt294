@@ -3,13 +3,13 @@ body{
     margin:0 auto;
     background-color: #DDD;
 }
-button[id="redirectionCreateTask"]{
+button[id="redCreateTask"]{
     margin-top: 2rem;
     background-color: green;
     color: white;
     font-weight: bold;
 }
-button[id="redirectionCreateTask"]:hover{
+button[id="redCreateTask"]:hover{
     border-color: green;
     border-style: solid;
     font-size: 11pt;
