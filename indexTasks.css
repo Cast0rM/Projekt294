@@ -2,6 +2,7 @@ body{
     max-width: 300px;
     margin:0 auto;
     background-color: #DDD;
+    font-size: 20pt;
 }
 button[id="redCreateTask"]{
     margin-top: 2rem;
@@ -26,4 +27,11 @@ table{
 th, td{
     padding: 10px 20px;
     border: 1px solid #000;
+}
+button:hover{
+    border: none;
+    border-color: red;
+    color: white;
+    background-color: red;
+    font-size: 15pt;
 }

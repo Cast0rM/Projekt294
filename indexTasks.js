@@ -11,7 +11,7 @@ function renderTasks(tasks) {
         completedCell.innerText = task.completed ? "✔️" : "❌";
         const actionsCell = document.createElement('td');
         const deleteButton = document.createElement('button');
-        deleteButton.innerText = "Delete Task";
+        deleteButton.innerText = "🗑️";
         deleteButton.addEventListener("click", (id) => {
             fetch('http://127.0.0.1:3000/task/'+ task.id, {
                 method: "DELETE",
@@ -26,17 +26,37 @@ function renderTasks(tasks) {
         actionsCell.appendChild(deleteButton);
 
         const editButton = document.createElement('button');
-        editButton.innerText = "Edit Button";
-        editButton.addEventListener("click", (id)=>{
-            fetch('http://127.0.0.1:3000/task/' + id, {
-                method: "PUT",
-                headers: {
-                    'Content-Type' : 'application/json;charset=utf-8'
-                },
-            }).then(()=> {
-                
-            })
-        })
+        editButton.innerText = "🖊";
+         editButton.addEventListener("click", (id)=>{
+             fetch('http://127.0.0.1:3000/task/' + id, {
+                 method: "GET",
+                 headers: {
+                     'Content-Type' : 'application/json;charset=utf-8'
+                 },
+             }).then((title)=>{
+                const formTask = document.createElement('form');
+                const taskFormData = new FormData();
+                taskFormData.append(task.title)
+                const taskInput = document.createElement('input');
+                let updateTask = prompt("UPDATE", task.title);
+                let task = {
+                    title: updateTask.value
+                };
+                let response = fetch('http://127.0.0.1:3000/tasks', {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json;charset=utf-8'
+                    },
+                    body: task
+                }).then((response)=>{
+                     response.json();
+                }).then((result)=>{
+                    alert("Success: "+ result)
+                }).catch(()=>{
+                    alert("Something went wrong");
+                })
+         });
+         })
         actionsCell.appendChild(editButton);
 
         row.appendChild(idCell);
