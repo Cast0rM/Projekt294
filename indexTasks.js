@@ -17,6 +17,7 @@ function renderTasks(tasks) {
 
         const deleteButton = document.createElement('button');
         deleteButton.setAttribute("id", "deleteTaskButton");
+        deleteButton.setAttribute("width", "10pt");
         deleteButton.innerText = "🗑️";
         deleteButton.addEventListener("click", (id) => {
             fetch('http://127.0.0.1:3000/task/' + task.id, {
@@ -32,6 +33,7 @@ function renderTasks(tasks) {
 
         const editButton = document.createElement('button');
         editButton.setAttribute("id", "editTaskButton");
+        editButton.setAttribute("width", "90pt");
         editButton.innerText = "🖊";
         editButton.addEventListener("click", (id) => {
             fetch('http://127.0.0.1:3000/task/' + task.id, {

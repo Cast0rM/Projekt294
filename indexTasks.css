@@ -19,6 +19,9 @@ button[id="redCreateTask"]:hover{
     font-weight: bold;
 
 }
+h1{
+    font-size:larger;
+}
 table{
     border-collapse: collapse;
     border-spacing: 0;
@@ -29,14 +32,14 @@ th, td{
     border: 1px solid #000;
 }
 button[id="deleteTaskButton"]:hover{
-    border: none;
+    border-radius: 5px;
     border-color: red;
     color: white;
     background-color: red;
     font-size: 15pt;
 }
 button[id="editTaskButton"]:hover{
-    border: none;
+    border-radius: 5px;
     border-color: blue;
     color: white;
     background-color: blue;
