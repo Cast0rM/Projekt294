@@ -21,7 +21,8 @@ function createTask() {
         body: JSON.stringify(task)
     }).then((response) => {
         return response.json();
-    }).then((data) => {
+    }).then(() => {
+        alert(`You've createt a new Task: "${taskInput.value}"`)
         window.location.href = "./index.html";
     }).catch(() => {
         alert("Something went wrong")
