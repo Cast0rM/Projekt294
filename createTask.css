@@ -1,11 +1,47 @@
-label, input, button{
-    display:block;
-}
-button[id="submit"]{
-    margin-top: 2rem;
-}
 body{
     max-width: 300px;
     margin:0 auto;
     background-color: #DDD;
+}
+label, input, button{
+    display:block;
+}
+
+input[id="taskInput"]{
+    height: 18pt;
+    border-radius:20px;
+    background-color: #4682B4;
+    color: white;
+    text-align: center;
+}
+a{
+    float: right;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+input::placeholder{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+button[type="submit"]{
+    margin-top: 2rem;
+}
+button[type="submit"]:hover{
+    background-color: green;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: green;
 }
