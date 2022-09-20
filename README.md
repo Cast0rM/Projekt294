@@ -26,3 +26,29 @@ Modul 294 ZLI
 
 
 
+### __Handling:__
+
+### npm i:
+
+*to install backend*
+
+### npm run start
+
+*To start Backend in localhost:3000*
+
+### Create Task:
+
+*Write your new Task in Input-label and save that Task to<br>
+add it to your Task-list.*
+
+### Edit Task:
+
+*Click in the Button with the Pen "🖊" to edit your Task,<br>
+You've to Write something in that input label to update your Task<br>
+or click the button bellow "cancel"*
+
+### Delete Task:
+
+*Click the Button with a trashcan "🗑️" to delete your Task,<br>
+you'll get an alert Box that notificates you, that you<br>
+removed the Task that you deleted.*
