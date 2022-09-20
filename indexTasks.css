@@ -2,14 +2,15 @@ body{
     max-width: 300px;
     margin:0 auto;
     background-color: #DDD;
+    font-size: 20pt;
 }
-button[id="redirectionCreateTask"]{
+button[id="redCreateTask"]{
     margin-top: 2rem;
     background-color: green;
     color: white;
     font-weight: bold;
 }
-button[id="redirectionCreateTask"]:hover{
+button[id="redCreateTask"]:hover{
     border-color: green;
     border-style: solid;
     font-size: 11pt;
@@ -26,4 +27,18 @@ table{
 th, td{
     padding: 10px 20px;
     border: 1px solid #000;
+}
+button[id="deleteTaskButton"]:hover{
+    border: none;
+    border-color: red;
+    color: white;
+    background-color: red;
+    font-size: 15pt;
+}
+button[id="editTaskButton"]:hover{
+    border: none;
+    border-color: blue;
+    color: white;
+    background-color: blue;
+    font-size: 15pt;
 }
