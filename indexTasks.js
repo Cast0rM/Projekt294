@@ -11,7 +11,7 @@ function renderTasks(tasks) {
         titleCell.innerText = task.title;
 
         const completedCell = document.createElement('td');
-        completedCell.innerText = task.completed ? "✔️" : "❌";
+        completedCell.innerText = task.completed ? "❌" : "✔️";
 
         const actionsCell = document.createElement('td');
 
@@ -44,11 +44,18 @@ function renderTasks(tasks) {
                 },
             }).then((title) => {
                 let updateTask = prompt("UPDATE", task.title);
-                if (updateTask === '')
+                while(updateTask === '')
                 {
                     alert("You have to write something");
                     updateTask = prompt("Retry Update", task.title);
                 }
+                if(updateTask == null)
+                {
+                    alert("You changed nothing");
+                    return;
+                }
+                
+                
                 fetch('http://127.0.0.1:3000/tasks', {
                     method: 'PUT',
                     headers: {
@@ -102,3 +109,5 @@ document.addEventListener("DOMContentLoaded", () => {
 function redCreateTask() {
     window.location.href = "./indexCreateTask.html";
 };  
+
+//Code by Castor M
