@@ -11,7 +11,7 @@ function renderTasks(tasks) {
         titleCell.innerText = task.title;
 
         const completedCell = document.createElement('td');
-        completedCell.innerText = task.completed ? "❌" : "✔️";
+        completedCell.innerText = task.completed ? "✔️" : "❌";
 
         const actionsCell = document.createElement('td');
 
