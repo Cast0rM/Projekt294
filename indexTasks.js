@@ -26,6 +26,7 @@ function renderTasks(tasks) {
                     'Content-Type': 'application/json;charset=utf-8'
                 },
             }).then(() => {
+                alert(`You removed: "${task.title}" from your Tasklist`);
                 indexTasks();
             });
         });
@@ -36,13 +37,18 @@ function renderTasks(tasks) {
         editButton.setAttribute("width", "90pt");
         editButton.innerText = "🖊";
         editButton.addEventListener("click", (id) => {
-            fetch('http://127.0.0.1:3000/task/' + task.id, {
+            fetch(`http://127.0.0.1:3000/task/${task.id}`, {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json;charset=utf-8'
                 },
             }).then((title) => {
-                const updateTask = prompt("UPDATE", task.title);
+                let updateTask = prompt("UPDATE", task.title);
+                if (updateTask === '')
+                {
+                    alert("You have to write something");
+                    updateTask = prompt("Retry Update", task.title);
+                }
                 fetch('http://127.0.0.1:3000/tasks', {
                     method: 'PUT',
                     headers: {
@@ -55,7 +61,12 @@ function renderTasks(tasks) {
                     })
                 })
                     .then((response) => { return response.json(); })
-                    .then(() => { window.location.reload()})
+                    .then(() => { 
+                        if(task.title != updateTask){
+                        alert(`You updated: "${task.title}" \nTo: "${updateTask}"`); 
+                        }
+                        window.location.reload()
+                    })
                     .catch(() => { alert("Something went wrong"); })
             });
         })
