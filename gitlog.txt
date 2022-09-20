@@ -1,0 +1,157 @@
+commit 8af46a146530d1aaf01d69ce26d124e2277d558e
+Merge: 223a22d 75b95e4
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 16:20:00 2022 +0200
+
+    Merge branch 'main' of https://github.com/Cast0rM/Projekt294 into main
+
+commit 223a22dc3fc4eaab5db602a976f87f8faf60b784
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 16:18:49 2022 +0200
+
+    feat: README
+
+commit 656b78e34912aa2ea35ff4948edeeb28c33db411
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 16:18:39 2022 +0200
+
+    feat: index/update/deleteTask
+
+commit 3f4106758166ce2e676a3ca8ba8a9d88c56b3e6c
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 16:18:21 2022 +0200
+
+    feat: createTask
+
+commit 75b95e409302b64b3f91081cc35dd2f5c12122a5
+Author: Cast0rM <113532532+Cast0rM@users.noreply.github.com>
+Date:   Tue Sep 20 15:33:11 2022 +0200
+
+    Add files via upload
+
+commit 9f300639737dd3fc0dda3cdc8ea292772aac4665
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 15:32:00 2022 +0200
+
+    feat: README
+
+commit d4758df5791a179afa61cd1722bbea86b03ebab2
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 15:31:41 2022 +0200
+
+    feat: update/delete/ListTask
+
+commit 7b5ca99f66471e21bfc53f07352e0cf6400370d6
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 15:31:20 2022 +0200
+
+    feat: createTask
+
+commit 5d4c54e4a090b98ddcc3dbb2faafbe311121ed0f
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 11:44:35 2022 +0200
+
+    feat: readme
+
+commit f3e4c49ca4804e4aff6c3ed25e4c9bbba2ad7ecb
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 11:35:58 2022 +0200
+
+    feat: index/update/deleteTask
+
+commit 604689b0694bd63d1fd59c1bb430caf076e3b5fd
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 11:35:36 2022 +0200
+
+    feat: createTask
+
+commit 39e577c673024d18a840b2fd96127d27a31b7a41
+Merge: 9efdaff 8299f40
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 11:35:18 2022 +0200
+
+    feat: readme
+
+commit 9efdafff495e3de5d20dc41b3aaa6eb858e2732c
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Tue Sep 20 09:50:49 2022 +0200
+
+    feat: index,update,edit Task
+
+commit 8299f40fb0ff83b3beae123d65a85f3669b563ac
+Author: Cast0rM <113532532+Cast0rM@users.noreply.github.com>
+Date:   Tue Sep 20 08:27:15 2022 +0200
+
+    README.md
+
+commit 80e87f48b5915390980e49c0b89d5802fd4295ec
+Author: Cast0rM <113532532+Cast0rM@users.noreply.github.com>
+Date:   Tue Sep 20 00:08:07 2022 +0200
+
+    Add files via upload
+
+commit 01dc4d4da04d514c29fa2d33fc13131abbf526ec
+Author: Cast0rM <113532532+Cast0rM@users.noreply.github.com>
+Date:   Mon Sep 19 16:46:35 2022 +0200
+
+    Add files via upload
+
+commit 931d9e2faa2e55229f80a44d46d2e68238c9947e
+Author: Cast0rM <113532532+Cast0rM@users.noreply.github.com>
+Date:   Mon Sep 19 16:46:10 2022 +0200
+
+    Add files via upload
+
+commit 552ee00c19cdfc57259424860b01a35465adc857
+Author: Cast0rM <113532532+Cast0rM@users.noreply.github.com>
+Date:   Mon Sep 19 16:45:57 2022 +0200
+
+    Add files via upload
+
+commit ee2a1d198613139183fbf83105dc9999174a3be9
+Author: Cast0rM <113532532+Cast0rM@users.noreply.github.com>
+Date:   Mon Sep 19 13:09:12 2022 +0200
+
+    Add files via upload
+
+commit 60399658895847c648761c0128f4d7760e55d5f7
+Author: Cast0rM <113532532+Cast0rM@users.noreply.github.com>
+Date:   Mon Sep 19 12:54:37 2022 +0200
+
+    Delete createTask.css
+
+commit 7471470981ec4de36f84b24d4f4cfbd1561d0380
+Author: Cast0rM <113532532+Cast0rM@users.noreply.github.com>
+Date:   Mon Sep 19 12:54:25 2022 +0200
+
+    Delete indexShowTasks.html
+
+commit f54693450db94b5031742f0c8528859665f4053e
+Author: Cast0rM <113532532+Cast0rM@users.noreply.github.com>
+Date:   Mon Sep 19 12:54:12 2022 +0200
+
+    Delete showTask.js
+
+commit efbeaf13f8307b6b11c1c7ad200d908a568b7b52
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Mon Sep 19 11:43:29 2022 +0200
+
+    feat: showTask
+
+commit b47513eeccc009359b37967bafb6644fde626ae7
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Mon Sep 19 11:43:06 2022 +0200
+
+    feat: createTask
+
+commit aa2b79a8e168bb4bd1c6bec38a6fa01dad1138ea
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Wed Sep 14 16:35:52 2022 +0200
+
+    feat: showTasks
+
+commit fb1b49ad3f0e0372c505bd4c9465b9052e404752
+Author: Cast0rM <castor.mfl@gmail.com>
+Date:   Wed Sep 14 16:35:37 2022 +0200
+
+    feat: create task
